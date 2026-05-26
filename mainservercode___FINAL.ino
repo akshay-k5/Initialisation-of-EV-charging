@@ -5,8 +5,8 @@
 
 #define IR_PIN 13  // IR sensor (LOW = vehicle present)
 
-const char* ssid = "Squars";
-const char* password = "cosineangle";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 const char* mdnsName = "evcharger";
 LiquidCrystal_PCF8574 lcd(0x27);
 
